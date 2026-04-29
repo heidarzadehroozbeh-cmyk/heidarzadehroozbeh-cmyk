@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="image_gen_2b5046c1-fb75-43f3-9efb-f2e828e3b541_0.png" alt="GitHub Profile Banner" width="100%" />
+</p>
+
 <div align="center">
 
 # Roozbeh Heidarzadeh  
