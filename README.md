@@ -36,8 +36,7 @@ My work focuses on robust biomarker discovery, tumor microenvironment characteri
 <img src="images/ovarian_ml.png" width="800">
 </p>
 
-Brief Abstract (1–2 lines):  
-A cross‑cohort ML framework integrating harmonized GEO datasets for prognostic biomarker discovery in serous ovarian cancer, with robust feature selection and survival modeling.
+Brief Abstract (Serous ovarian cancer (SOC) remains one of the most lethal gynecological malignancies, with limited robust prognostic biomarkers available for clinical use. In this project, we developed a fully reproducible machine learning framework for cross‑cohort transcriptomic analysis of SOC): A cross‑cohort ML framework integrating harmonized GEO datasets for prognostic biomarker discovery in serous ovarian cancer, with robust feature selection and survival modeling.
 
 **Repository:**  
 https://github.com/heidarzadehroozbeh-cmyk/ML-Prognostic_Biomarkers-for-Serous-OvarianCancer  
