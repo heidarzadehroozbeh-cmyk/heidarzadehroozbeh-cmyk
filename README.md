@@ -54,7 +54,7 @@ WGCNA‑based co‑expression network analysis of castration‑resistant prostat
 **Repository:**  
 https://github.com/heidarzadehroozbeh-cmyk/CRPC-WGCNA-Metastasis  
 
-**Full abstract:** see `## Abstract` in the project README.
+**Castration‑resistant prostate cancer (CRPC) is characterized by aggressive behavior and a high propensity for metastasis, yet the transcriptional programs that drive metastatic progression remain incompletely understood. In this project, we implemented a weighted gene co‑expression network analysis (WGCNA) workflow to identify metastasis‑associated gene modules in CRPC transcriptomic datasets. After rigorous pre‑processing and normalization, co‑expression networks were constructed and modules were correlated with clinical traits, including metastatic status and disease progression. Hub genes within clinically relevant modules were identified based on intramodular connectivity and eigengene‑based metrics. Functional enrichment analyses were performed to link modules to key biological processes and signaling pathways implicated in CRPC progression, such as androgen receptor signaling, EMT, and inflammatory pathways. The pipeline is fully scripted in R with an emphasis on reproducibility and interpretability, providing a modular framework for extending network‑based analyses to additional cohorts and multi‑omics layers.** see `## Abstract` in the project README.
 
 ---
 
@@ -69,7 +69,7 @@ Systems‑level co‑expression network reconstruction in PCOS, linking gene mod
 **Repository:**  
 https://github.com/heidarzadehroozbeh-cmyk/PCOS-WGCNA  
 
-**Full abstract:** see `## Abstract` in the project README.
+**Polycystic ovary syndrome (PCOS) is a complex endocrine and metabolic disorder with heterogeneous clinical manifestations and poorly defined molecular underpinnings. This project applies a systems biology‑driven co‑expression network approach to transcriptomic datasets derived from PCOS patients and controls. Using WGCNA, we constructed gene co‑expression networks and identified modules associated with key clinical and metabolic traits. Hub genes and driver modules were characterized using network topology metrics and module–trait correlations. Subsequent functional enrichment and pathway analyses revealed modules enriched for inflammatory signaling, insulin resistance, steroidogenesis, and extracellular matrix remodeling. The analysis highlights candidate regulatory networks that may contribute to PCOS pathophysiology and provides a reproducible computational pipeline aligned with the corresponding Biomedicines 2023 publication. The repository is organized to facilitate reuse, re‑analysis, and extension to additional cohorts or related endocrine disorders.** see `## Abstract` in the project README.
 
 ---
 
@@ -84,7 +84,7 @@ Transcriptomic dissection of EMT programs and WNT/TGF‑β signaling in epitheli
 **Repository:**  
 https://github.com/heidarzadehroozbeh-cmyk/EOC_WNT_TGFb_EMT_Transcriptomics  
 
-**Full abstract:** see `## Abstract` in the project README.
+**Epithelial ovarian cancer (EOC) progression and chemoresistance are tightly linked to epithelial‑to‑mesenchymal transition (EMT) programs and dysregulated signaling in pathways such as WNT and TGF‑β. In this project, we systematically characterize EMT‑related transcriptional signatures and their association with WNT/TGF‑β signaling axes in EOC transcriptomic datasets. Curated microarray and/or RNA‑seq datasets were processed using standardized normalization pipelines, followed by differential expression and signature scoring approaches to quantify EMT states. Gene set enrichment, pathway analysis, and module‑level characterization were employed to delineate signaling networks associated with mesenchymal‑like phenotypes. Where applicable, tumor microenvironment–related signals and immune components were integrated to contextualize EMT states within the broader TME. The resulting framework provides a structured, reproducible approach to interrogating EMT, WNT, and TGF‑β signaling in EOC and can serve as a template for similar analyses in other solid tumors.** see `## Abstract` in the project README.
 
 ---
 
