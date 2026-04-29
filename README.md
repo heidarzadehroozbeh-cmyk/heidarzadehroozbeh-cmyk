@@ -1,146 +1,137 @@
-<div align=“center”>
+<div align="center">
 
-🧬 Roozbeh Heidarzadeh
-Computational Cancer Genomics • Systems Biology • Machine Learning
-🧠 Integrative pipelines for decoding cancer transcriptomes and therapeutic networks.
-
-</div>
-
-<div align=“center”>
-
-
-
-
-
-
-
-
-
-
+# Roozbeh Heidarzadeh  
+### Computational Cancer Genomics • Machine Learning • Transcriptomics  
 
 </div>
 
-🧩 Research Vision
-I design reproducible computational frameworks to unravel tumor biology through cross‑cohort transcriptomics, network systems analysis, and machine learning.
+---
 
-My work emphasizes multi‑omics integration, tumor microenvironment profiling, and translational biomarker discovery across solid tumors.
+<div align="center">
 
-🚀 Featured Projects
-🩸 Serous Ovarian Cancer — ML‑Based Prognostic Biomarkers
-<p align=“center”>
-
-<img src=“images/ovarian_ml.png” width=“700”>
-
-</p>
-
-Multi‑cohort ML framework integrating GEO transcriptomic datasets for survival modeling and biomarker discovery.
-
-🔗 View Repository →
-
-<details>
-
-<summary><strong>Read scientific abstract</strong></summary>
-
-Serous ovarian cancer (SOC) remains one of the most lethal gynecological malignancies…
-
-(full abstract continues in project README)
-
-</details>
-
-🧠 CRPC — Metastasis‑Associated Co‑expression Modules
-<p align=“center”>
-
-<img src=“images/crpc_wgcna.png” width=“700”>
-
-</p>
-
-WGCNA‑based transcriptomic network analysis identifying metastasis‑linked modules and hub genes in castration‑resistant prostate cancer.
-
-🔗 View Repository →
-
-<details>
-
-<summary><strong>Read scientific abstract</strong></summary>
-
-Network‑centric analysis of CRPC to uncover metastasis‑relevant transcriptional modules and biological processes…
-
-(detailed abstract in project README)
-
-</details>
-
-🧬 PCOS — Systems‑Level Transcriptomic Networks
-<p align=“center”>
-
-<img src=“images/pcos_wgcna.png” width=“700”>
-
-</p>
-
-Co‑expression network reconstruction linking gene modules to metabolic and endocrine traits in PCOS.
-
-🔗 View Repository →
-
-<details>
-
-<summary><strong>Read scientific abstract</strong></summary>
-
-Systems transcriptomics analysis revealing inflammatory and ECM‑related regulatory networks contributing to PCOS pathophysiology…
-
-(detailed abstract in project README)
-
-</details>
-
-🧫 EOC — EMT, WNT & TGF‑β Integrative Transcriptomics
-<p align=“center”>
-
-<img src=“images/eoc_wnt.png” width=“700”>
-
-</p>
-
-Integrative characterization of EMT networks and WNT/TGF‑β signaling in epithelial ovarian cancer.
-
-🔗 View Repository →
-
-<details>
-
-<summary><strong>Read scientific abstract</strong></summary>
-
-Comprehensive analysis unveiling EMT‑associated regulatory axes and drug‑gene interaction landscapes in epithelial ovarian cancer…
-
-(full abstract available in project README)
-
-</details>
-
-🧮 Technical Expertise
-Domain	Tools & Methods
-Differential expression	DESeq2 · limma · edgeR
-Network biology	WGCNA · Cytoscape · clusterProfiler
-Machine learning	Elastic Net · Random Forest · XGBoost
-Survival modeling	Cox PH · Kaplan–Meier · risk modeling
-Immune / TME profiling	CIBERSORT · TIMER · ssGSEA
-Reproducibility	renv · Snakemake · scripted pipelines
-Visualization	ggplot2 · ComplexHeatmap · publication‑grade figures
-🔬 Research Principles
-Cross‑cohort & cross‑platform robustness
-Fully scripted, reproducible pipelines
-Transparent reporting of assumptions
-Prioritizing biological interpretability
-Aligned with journal‑grade standards
-📊 GitHub Insights
-<div align=“center”>
-
-
-
-
+![R](https://img.shields.io/badge/R-4.3+-blue?style=for-the-badge&logo=r)
+![Python](https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge&logo=python)
+![Bioconductor](https://img.shields.io/badge/Bioconductor-Transcriptomics-green?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-darkgreen?style=for-the-badge)
+![Reproducible](https://img.shields.io/badge/Pipelines-Reproducible-black?style=for-the-badge)
 
 </div>
 
-🎯 Current Focus
-Developing integrative ML pipelines for multi‑cohort cancer transcriptomics, survival modeling, and tumor microenvironment deconvolution.
+---
 
-<div align=“center”>
+## Research Vision
 
-🧠 Computational Oncology • Systems Biology • Translational Bioinformatics
+I develop reproducible computational frameworks to decode cancer transcriptomes using machine learning, systems biology, and network‑based approaches.  
+My work focuses on robust biomarker discovery, tumor microenvironment characterization, and cross‑cohort integration of high‑dimensional omics data.
 
-📫 Google Scholar • ResearchGate • LinkedIn
+---
+
+## Featured Research Projects
+
+### 1. Serous Ovarian Cancer — Cross‑Cohort ML Biomarker Discovery
+
+<p align="center">
+<img src="images/ovarian_ml.png" width="800">
+</p>
+
+Multi‑cohort machine learning framework for prognostic biomarker discovery in serous ovarian cancer, integrating harmonized GEO transcriptomic datasets, survival modeling, and immune microenvironment profiling.
+
+**Repository:**  
+https://github.com/heidarzadehroozbeh-cmyk/ML-Prognostic_Biomarkers-for-Serous-OvarianCancer  
+
+**Serous ovarian cancer (SOC) remains one of the most lethal gynecological malignancies, with limited robust prognostic biomarkers available for clinical use. In this project, we developed a fully reproducible machine learning framework for cross‑cohort transcriptomic analysis of SOC. Publicly available GEO datasets were curated, pre‑processed, and harmonized using standardized normalization and batch correction procedures. Feature selection pipelines combining univariate filtering, penalized regression, and stability selection were applied to identify robust prognostic gene signatures. Multiple machine learning models, including elastic net, random forest, and gradient boosting, were trained and evaluated under rigorous cross‑validation and cross‑cohort validation schemes. Survival modeling and risk stratification were performed to assess the prognostic value of the derived signatures, while pathway‑level analyses and immune deconvolution were used to contextualize the biological relevance of candidate biomarkers. The framework emphasizes methodological transparency, reproducibility, and multi‑cohort robustness, providing a template for biomarker discovery in other cancers. Manuscript submission is in progress; code and workflows will be fully synchronized with the final published version.** see `## Abstract` in the project README.
+
+---
+
+### 2. CRPC — Metastasis‑Associated Co‑expression Modules
+
+<p align="center">
+<img src="images/crpc_wgcna.png" width="800">
+</p>
+
+WGCNA‑based co‑expression network analysis of castration‑resistant prostate cancer, identifying metastasis‑associated modules, hub genes, and functionally enriched signaling pathways.
+
+**Repository:**  
+https://github.com/heidarzadehroozbeh-cmyk/CRPC-WGCNA-Metastasis  
+
+**Castration‑resistant prostate cancer (CRPC) is characterized by aggressive behavior and a high propensity for metastasis, yet the transcriptional programs that drive metastatic progression remain incompletely understood. In this project, we implemented a weighted gene co‑expression network analysis (WGCNA) workflow to identify metastasis‑associated gene modules in CRPC transcriptomic datasets. After rigorous pre‑processing and normalization, co‑expression networks were constructed and modules were correlated with clinical traits, including metastatic status and disease progression. Hub genes within clinically relevant modules were identified based on intramodular connectivity and eigengene‑based metrics. Functional enrichment analyses were performed to link modules to key biological processes and signaling pathways implicated in CRPC progression, such as androgen receptor signaling, EMT, and inflammatory pathways. The pipeline is fully scripted in R with an emphasis on reproducibility and interpretability, providing a modular framework for extending network‑based analyses to additional cohorts and multi‑omics layers.** see `## Abstract` in the project README.
+
+---
+
+### 3. PCOS — Systems‑Level Transcriptomic Networks
+
+<p align="center">
+<img src="images/pcos_wgcna.png" width="800">
+</p>
+
+Systems‑level co‑expression network reconstruction in PCOS, linking gene modules to metabolic and endocrine traits and highlighting inflammatory and ECM‑related regulatory networks.
+
+**Repository:**  
+https://github.com/heidarzadehroozbeh-cmyk/PCOS-WGCNA  
+
+**Polycystic ovary syndrome (PCOS) is a complex endocrine and metabolic disorder with heterogeneous clinical manifestations and poorly defined molecular underpinnings. This project applies a systems biology‑driven co‑expression network approach to transcriptomic datasets derived from PCOS patients and controls. Using WGCNA, we constructed gene co‑expression networks and identified modules associated with key clinical and metabolic traits. Hub genes and driver modules were characterized using network topology metrics and module–trait correlations. Subsequent functional enrichment and pathway analyses revealed modules enriched for inflammatory signaling, insulin resistance, steroidogenesis, and extracellular matrix remodeling. The analysis highlights candidate regulatory networks that may contribute to PCOS pathophysiology and provides a reproducible computational pipeline aligned with the corresponding Biomedicines 2023 publication. The repository is organized to facilitate reuse, re‑analysis, and extension to additional cohorts or related endocrine disorders.** see `## Abstract` in the project README.
+
+---
+
+### 4. EOC — EMT, WNT & TGF‑β Signaling Landscape
+
+<p align="center">
+<img src="images/eoc_wnt.png" width="800">
+</p>
+
+Transcriptomic dissection of EMT programs and WNT/TGF‑β signaling in epithelial ovarian cancer, contextualized within tumor microenvironment–related signatures.
+
+**Repository:**  
+https://github.com/heidarzadehroozbeh-cmyk/EOC_WNT_TGFb_EMT_Transcriptomics  
+
+**Epithelial ovarian cancer (EOC) progression and chemoresistance are tightly linked to epithelial‑to‑mesenchymal transition (EMT) programs and dysregulated signaling in pathways such as WNT and TGF‑β. In this project, we systematically characterize EMT‑related transcriptional signatures and their association with WNT/TGF‑β signaling axes in EOC transcriptomic datasets. Curated microarray and/or RNA‑seq datasets were processed using standardized normalization pipelines, followed by differential expression and signature scoring approaches to quantify EMT states. Gene set enrichment, pathway analysis, and module‑level characterization were employed to delineate signaling networks associated with mesenchymal‑like phenotypes. Where applicable, tumor microenvironment–related signals and immune components were integrated to contextualize EMT states within the broader TME. The resulting framework provides a structured, reproducible approach to interrogating EMT, WNT, and TGF‑β signaling in EOC and can serve as a template for similar analyses in other solid tumors.** see `## Abstract` in the project README.
+
+---
+
+## Technical Expertise
+
+| Domain | Tools / Methods |
+|--------|-----------------|
+| Differential expression | DESeq2, limma, edgeR |
+| Network biology | WGCNA, module detection, hub analysis |
+| Machine learning | Elastic Net, Random Forest, XGBoost |
+| Survival & risk modeling | Cox models, risk scores, cross‑validation |
+| Immune & TME profiling | CIBERSORT, ssGSEA, signature scoring |
+| Reproducibility | renv, scripted workflows, version‑controlled pipelines |
+| Visualization | ggplot2, ComplexHeatmap, publication‑ready figures |
+
+---
+
+## Research Principles
+
+- Cross‑cohort and cross‑platform robustness  
+- Fully scripted, reproducible pipelines  
+- Transparent reporting of methods and assumptions  
+- Emphasis on biological interpretability  
+- Alignment with journal‑grade standards for figures and documentation  
+
+---
+
+## GitHub Analytics
+
+<div align="center">
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=heidarzadehroozbeh-cmyk&show_icons=true&theme=default&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=heidarzadehroozbeh-cmyk&layout=compact&hide_border=true)
+
+</div>
+
+---
+
+## Current Focus
+
+Developing integrative ML pipelines for multi‑cohort cancer transcriptomics, survival modeling, and tumor microenvironment characterization.
+
+---
+
+<div align="center">
+
+Computational Oncology • Systems Biology • Translational Bioinformatics  
 
 </div>
